@@ -12,4 +12,5 @@ def second_challenge
   #   newArr=newArr.concat(each)
   # end
   # newArr
+  groceries.values.collect
 end
