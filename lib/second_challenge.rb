@@ -7,9 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
-   newArr=[]
-  groceries.values.each do |each|
-     newArr=newArr.concat(each)
-  end
-  newArr
+
+  return groceries.values.join(",").split(",")
 end
