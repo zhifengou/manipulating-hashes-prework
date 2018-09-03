@@ -12,5 +12,5 @@ def second_challenge
   #   newArr=newArr.concat(each)
   # end
   # newArr
-  groceries.values.join(",").split(",")
+  return groceries.values.join(",").split(",")
 end
