@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
    newArr=[]
   groceries.values.each do |each|
-     newArr=newArr.concat(each)
+     newArr=newArr.push(each)
   end
   newArr
 end
